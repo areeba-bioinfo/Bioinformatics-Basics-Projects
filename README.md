@@ -17,4 +17,5 @@ I am a pre-medical student from Pakistan passionate about biology, global health
 ## 📜 Certificates
 * **Global Health & Nutrition:** Completed specialized training and certification via the official UNICEF Agora Portal (August 2026).
 * **Bioinformatics Basics:** Completed the Bioinformatics Basics Course on Mind Luster (August 2026).
+
 * 
