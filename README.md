@@ -1,21 +1,55 @@
 # 🧬 Bioinformatics Basics Projects
 
-My basic coding practice and small projects for bioinformatics learning.
+A collection of beginner-level projects and learning exercises focused on Python, bioinformatics, and biological data analysis.
 
-## 👩‍🔬 About Me
-I am a pre-medical student from Pakistan passionate about biology, global health, and data analysis. I created this space to share my basic coding practices and independent research, aiming to combine biological sciences with computational methods to solve real-world healthcare challenges.
+## 👩‍💻 About Me
+
+I am a pre-medical student interested in biology, bioinformatics, and data analysis. I am currently learning Python and exploring how computational methods can be used to work with biological data.
+
+This repository documents my learning process through small, practical projects.
 
 ## 🛠️ Technical Skills
-- **Programming Language:** Python (Basic)
-- **Domain Skills:** DNA Sequence Analysis, GC Content Calculation, Basic Machine Learning
-- **Tools & Platforms:** GitHub, Jupyter Notebooks
 
-## 💻 Completed Projects
-* **DNA Analysis Script (`dna_analysis.py`):** A simple Python script that takes a DNA strand and calculates the total length and the GC content percentage. This includes practical data testing on a real SARS-CoV-2 (COVID-19) genome fragment.
-* **Bioinformatics Machine Learning Project (`Bioinformatics_ML_Project.ipynb`):** A beginner-level Jupyter Notebook applying data science and basic machine learning concepts to biological datasets.
+- **Programming:** Python (Basic)
+- **Bioinformatics:** DNA sequence analysis, nucleotide counting, GC content calculation
+- **Data Analysis:** Basic data handling and visualization
+- **Machine Learning:** Beginner-level concepts
+- **Tools:** GitHub, Jupyter Notebook
 
-## 📜 Certificates
-* **Global Health & Nutrition:** Completed specialized training and certification via the official UNICEF Agora Portal (August 2026).
-* **Bioinformatics Basics:** Completed the Bioinformatics Basics Course on Mind Luster (August 2026).
+## 🔬 Projects
 
-* 
+### 1. SARS-CoV-2 DNA Sequence Fragment Analysis
+**File:** `dna_analysis.py`
+
+A beginner-level Python project for analyzing a DNA sequence fragment. The project calculates sequence length, counts G and C nucleotides, and calculates GC content percentage.
+
+**Concepts practiced:**
+- DNA sequences
+- Nucleotide counting
+- Sequence length
+- GC content calculation
+- Python string methods
+
+### 2. Bioinformatics Machine Learning Project
+**File:** `Bioinformatics_ML_Project.ipynb`
+
+A beginner-level Jupyter Notebook exploring basic machine learning and data analysis concepts using biological data.
+
+**Concepts practiced:**
+- Data analysis
+- Basic machine learning
+- Jupyter Notebook
+- Biological datasets
+
+## 📜 Certificates & Learning
+
+- **Global Health & Nutrition** — UNICEF Agora
+- **Bioinformatics Basics** — Mind Luster
+
+## 🎯 Current Learning Goals
+
+- Improve Python programming
+- Learn more about biological sequence analysis
+- Practice working with biological datasets
+- Explore genomics and bioinformatics
+- Develop stronger data analysis skills
