@@ -1,42 +1,39 @@
-# My first basic bioinformatics script to calculate GC percentage in a DNA strand
+# =====================================================================
+# PROJECT 2: Analyzing the SARS-CoV-2 (COVID-19) Genome Fragment
+# Purpose: Nucleotide counting and GC content stability score calculation.
+# =====================================================================
 
-# This is a sample DNA sequence
-dna_sequence = "ATGCGATCGATCGATCGATCGATCGAGC"
+# Real genetic sequence fragment from the SARS-CoV-2 virus genome
+covid_dna_fragment = (
+    "ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAA"
+    "CGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAAAACT"
+    "AATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTT"
+    "GCAGCCGATCATCAGCACATCTAGGTTT"
+)
 
-# We count how many times G and C appear
-g_count = dna_sequence.count("G")
-c_count = dna_sequence.count("C")
-
-# Total length of our DNA
-total_length = len(dna_sequence)
-
-# Calculate percentage
-gc_content = ((g_count + c_count) / total_length) * 100
-
-# Print the final result
-print("DNA Sequence:", dna_sequence)
-print("Total Length:", total_length)
-print("GC Content Percentage:", round(gc_content, 2), "%")
-
-# =========================================================================
-# PROJECT 2: Real-world practice with SARS-CoV-2 (COVID-19) DNA fragment
-# =========================================================================
-
-# Actual genetic sequence fragment from the SARS-CoV-2 virus genome
-covid_dna_fragment = "ATTAAAGGTTTATACCTTCCCAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACTCACGCAGTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATCTTCTGCAGGCTGCTTACGGTTTCGTCCGTGTTGCAGCCGATCATCAGCACATCTAGGTTT"
-
-# Counting G and C bases for virus data
+# Step 1: Counting each biological base inside the viral sequence
+# (We count all 4 bases to create a complete dataset for the portfolio)
+covid_a = covid_dna_fragment.count("A")
+covid_t = covid_dna_fragment.count("T")
 covid_g = covid_dna_fragment.count("G")
 covid_c = covid_dna_fragment.count("C")
 
-# Total length of viral fragment
+# Step 2: Finding the exact length of this viral strand
 covid_length = len(covid_dna_fragment)
 
-# Calculating GC content score
+# Step 3: Computing the GC Content Stability Percentage
+# Mathematical logic: (Total G + Total C) divided by overall length, multiplied by 100
 covid_gc_score = ((covid_g + covid_c) / covid_length) * 100
 
-# Printing results for my scholarship portfolio
-print("\n--- COVID-19 Fragment Analysis ---")
-print("Total Base Pairs Analysed:", covid_length)
-print("GC Content Stability Score:", round(covid_gc_score, 2), "%")
-
+# Step 4: Displaying formatted results for the scholarship review
+print("\n" + "="*40)
+print("     COVID-19 FRAGMENT ANALYSIS REPORT     ")
+print("="*40)
+print(f"Total Base Pairs Sequenced : {covid_length} bp")
+print(f"Adenine (A) Count          : {covid_a}")
+print(f"Thymine (T) Count          : {covid_t}")
+print(f"Guanine (G) Count          : {covid_g}")
+print(f"Cytosine (C) Count         : {covid_c}")
+print("-"*40)
+print(f"GC Content Stability Score : {round(covid_gc_score, 2)}%")
+print("="*40 + "\n")
