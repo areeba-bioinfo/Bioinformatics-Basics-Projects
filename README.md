@@ -32,6 +32,8 @@ A beginner-level Python project for analyzing a DNA sequence fragment. The proje
 
 ### 2. Bioinformatics Machine Learning Project
 **File:** `Bioinformatics_ML_Project.ipynb`
+- **Dataset Used:** Public biological expression datasets / practice genomic data.
+- 
 
 A beginner-level Jupyter Notebook exploring basic machine learning and data analysis concepts using biological data.
 
@@ -43,8 +45,10 @@ A beginner-level Jupyter Notebook exploring basic machine learning and data anal
 
 ## 📜 Certificates & Learning
 
-- **Global Health & Nutrition** — UNICEF Agora
+- **Python Certification** — Kaggle
 - **Bioinformatics Basics** — Mind Luster
+- **Global Health & Nutrition** — UNICEF Agora
+- 
 
 ## 🎯 Current Learning Goals
 
