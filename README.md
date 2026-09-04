@@ -52,7 +52,8 @@ A beginner-level Jupyter Notebook exploring basic machine learning and data anal
 - **Python Certification** — Kaggle
 - **Bioinformatics Basics** — Mind Luster
 - **Global Health & Nutrition** — UNICEF Agora
-- 
+- * **Functional Genomics II** -- EMBL-EBI ([Course Link](https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/))
+    
 
 ## 🎯 Current Learning Goals
 
