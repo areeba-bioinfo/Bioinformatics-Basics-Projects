@@ -35,10 +35,10 @@ A beginner-level Python project for analyzing a DNA sequence fragment. The proje
   
 ### 2. Bioinformatics Machine Learning Project
 **File:** `Bioinformatics_ML_Project.ipynb`
-- **Dataset Used:** Public biological expression datasets / practice genomic data.
+- **Dataset Used:** scikit-learn built-in diabetes dataset (practice data).
 - 
 
-A beginner-level Jupyter Notebook exploring basic machine learning and data analysis concepts using biological data.
+A beginner-level Jupyter Notebook exploring basic machine learning and data analysis concept using scikit-learn's diabetes dataset (linear regression on BMI and blood pressure, test MSE 3740.51).
 
 **Concepts practiced:**
 - Data analysis
@@ -46,7 +46,11 @@ A beginner-level Jupyter Notebook exploring basic machine learning and data anal
 - Jupyter Notebook
 - Biological datasets
 - What I learned: This project helped me understand how machine learning is actually applied to biological data, not just theory. I got comfortable with loading and cleaning a dataset before doing anything else, which I didn't expect to take as much time as it did. It also showed me how much more I still need to learn about ML before I can call it a real skill.
+### 3. Food Nutrition and Protein Analysis
 
+**File:** `Nutrition_Protein_Analysis.ipynb`
+
+A Jupyter/Colab notebook that analyses a food nutrition dataset (calories, protein, carbs, fat, iron, vitamin C). It removes rows with missing protein values, ranks the top 10 foods by protein content, visualises them with a bar chart and calculates the correlation between protein and calories.
 ## 📜 Certificates & Learning
 
 - **Python Certification** — Kaggle
@@ -62,3 +66,4 @@ A beginner-level Jupyter Notebook exploring basic machine learning and data anal
 - Practice working with biological datasets
 - Explore genomics and bioinformatics
 - Develop stronger data analysis skills
+  
